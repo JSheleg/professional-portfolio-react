@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+.test a{
+  margin-left: 250px;
+  padding: 20px;
+}
+
+.about-me{
+  display: flex;
+  flex-direction: column;
+  
+
+}
+
+
+
+
+
