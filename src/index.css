@@ -6,9 +6,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: "Roboto","Helvetica","Arial","sans-serif"
-}
 
 h1 {
   background-color: #ec160a;
@@ -16,6 +13,8 @@ h1 {
   margin:0%;
   padding: 2%;
   font-family: "Roboto","Helvetica","Arial","sans-serif";
+  height: 50px;
+  text-decoration: underline;
 }
 
 h2{ 

@@ -24,6 +24,32 @@
   color: white;
 }
 
+
+ul {
+  list-style: none; /*to remove bullets*/
+  text-align: center;
+  zoom:1;
+  border:1px solid black;
+  width: 100%;
+  background-color:black;
+}
+
+li{
+  padding: 5px;
+  width: 350px;
+  display:inline-block;
+  height: 20px;
+}
+
+li:hover{
+  background-color: #355e3b;
+}
+
+a{
+  color: white;
+}
+
+
 .App-link {
   color: #61dafb;
 }
