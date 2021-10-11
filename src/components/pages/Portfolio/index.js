@@ -12,7 +12,7 @@ function Portfolio(){
     return(
         <Container fluid className = "project-section">
             <h1 className ="project-heading">
-                My Recent <strong className="header"> Works </strong>
+                My Recent <strong className="header" style={{color:"green"}}> Works </strong>
             </h1>
             <p style = {{ color:"white", textAlign:"center"}}>
                 Here are a few projects I've worked on recently
@@ -24,6 +24,7 @@ function Portfolio(){
                         title="Project 1"
                         description=" Description for project 1"
                         link="#"
+
                     />
                 </Col>
                 <Col md={12} className="project-card">

@@ -14,9 +14,7 @@ function About() {
     return (
       <Box sx={{ flexGrow: 1 }}>
         <Grid container spacing={0}>
-          <Grid item xs={12}>
-            <h1 style = {{margin: "20px"}}><strong>Jessica Sheleg</strong></h1>
-          </Grid>
+          
           <Grid item xs={12}>
             <img src={cover} className="my-2" style={{ width: "100%"}} alt="cover"/>
           </Grid>
