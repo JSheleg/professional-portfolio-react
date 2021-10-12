@@ -1,7 +1,7 @@
 import React from 'react'
 import cover from "../../../assets/cover/Gourge.JPG";
 import Button from 'react-bootstrap/Button';
-import { Container, Row, Col, Image } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 
 const Resume = () => (
     

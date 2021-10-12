@@ -52,35 +52,18 @@
   padding-bottom: 50px;
 }
 
-
-/* #name a{
-  justify-content: start;
-  width:100%;
-} */
-
-
-/* .container{
-  display: flex;
-  justify-content:right;
-  padding-top: 50px;
-} */
-
-/* .name a{
-  padding-right: 200px;
-} */
-
-/* .container h1{
-  justify-content: left;
-} */
-
-
-
 .navbar a{
   color: white;
   margin-left:50px;
   margin-right: 50px;
   font-size: 30px;
 }
+
+/* contact form styling */
+.contact{
+  background-color: #1C3334;
+}
+
 
 
 /* .navbar{

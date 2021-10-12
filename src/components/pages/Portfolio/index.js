@@ -1,11 +1,11 @@
 import React from 'react'
-import {Container, Row, Col} from 'react-bootstrap';
-import ProjectCard from '../../ProjectCard';
-import project1 from '../../../assets/projects/bridge.jpg';
-import project2 from '../../../assets/projects/Canoe.JPG';
-import project3 from '../../../assets/projects/greatwall.jpg';
-import project4 from '../../../assets/projects/Lilypad.jpg';
-import project5 from '../../../assets/projects/Sky.jpg';
+// import {Container, Row, Col} from 'react-bootstrap';
+// import ProjectCard from '../../ProjectCard';
+// import project1 from '../../../assets/projects/bridge.jpg';
+// import project2 from '../../../assets/projects/Canoe.JPG';
+// import project3 from '../../../assets/projects/greatwall.jpg';
+// import project4 from '../../../assets/projects/Lilypad.jpg';
+// import project5 from '../../../assets/projects/Sky.jpg';
 
 const Portfolio = () => (
     <div>
