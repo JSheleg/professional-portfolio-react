@@ -1,12 +1,7 @@
-// import * as React from 'react';
-// import { Link} from "react-router-dom";
-
-
-
 
 import React from 'react'
 import { Navbar, Container,Nav } from 'react-bootstrap'
-
+// import cover from "../../../src/assets/cover/Gourge.JPG";
 
 const NavBar = () => {
 

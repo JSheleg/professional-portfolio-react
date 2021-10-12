@@ -3,18 +3,53 @@
 .Navbar{
   display:flex;
   justify-content: space-around;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #376E6F;
 }
 
 .container{
   width: 100%;
   justify-content: left;
+
 }
 
 .container a{
   text-decoration: none;
 }
+
+/* about section styling */
+.row{
+  display:flex;
+}
+.profileContainer{
+  display: inline-block;
+  flex-wrap: wrap;
+  flex-direction: column
+}
+
+.picture{
+  align-items: center;
+}
+
+.rounded{
+  height: 500px;
+  width: 500px;
+  border-radius: 200px;
+  border: 15px solid #DA7B93;
+  margin:100px;
+}
+
+.aboutDescription{
+  font-size: 30px;
+  color:#DA7B93;
+  margin: 50px;
+  
+  
+  
+
+}
+
 
 
 
