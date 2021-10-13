@@ -32,11 +32,11 @@ const Contact = () => {
             <Form onSubmit={sendEmail} style={{marginLeft: "300px", marginTop:"75px", marginRight: "350px", marginBottom:"200px", paddingTop: "30px", paddingBottom:"30px", border: "10px solid black", backgroundColor: "#376E6F"}} >
                 <Form.Group className="mb-3" controlId="contactInput" style={{marginTop:"10px", marginLeft:"100px"}}>
                     <Form.Label style={{marginRight:"50px"}}>Name: </Form.Label><br/>
-                    <Form.Control type="text" placeholder="Name" name="user_name"/><br/>
+                    <Form.Control id="name" type="text" placeholder="Name" name="user_name"/><br/>
                     <Form.Label>Email address: </Form.Label><br/>
-                    <Form.Control type="email" style={{width:"400px"}}  placeholder="name@example.com" name="user_email" /><br/>
+                    <Form.Control id="email" type="email" style={{width:"400px"}}  placeholder="name@example.com" name="user_email" /><br/>
                     <Form.Label style={{marginBottom:"200px"}}>Message: </Form.Label><br/>
-                    <Form.Control style={{width:"400px"}} as="textarea"name="message" rows={3} size="lg" /><br/>
+                    <Form.Control id="message" style={{width:"400px"}} as="textarea"name="message" rows={3} size="lg" /><br/>
                 </Form.Group><br/>
                 <Button  value = "Send Email" variant="primary" type="submit" style={{marginLeft:"100px", width: "350px", backgroundColor:"#2E151B", color:"white"}}>
                 Submit
