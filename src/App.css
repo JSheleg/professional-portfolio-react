@@ -8,6 +8,10 @@
   background-color: #376E6F;
 }
 
+.Navbar a:hover{
+  color: #1C3334;
+}
+
 .container{
   width: 100%;
   justify-content: left;
@@ -24,7 +28,8 @@
 .profileContainer{
   display: inline-block;
   flex-wrap: wrap;
-  flex-direction: column
+  flex-direction: column;
+  background-color: #1C3334;
 }
 
 .picture{
@@ -36,6 +41,7 @@
   width: 500px;
   border-radius: 200px;
   border: 15px solid #DA7B93;
+  box-shadow: 0 4px 5px 3px rgba(218, 123, 147, 0.459);
   margin:100px;
 }
 
@@ -43,6 +49,9 @@
   font-size: 30px;
   color:#DA7B93;
   margin: 50px;
+  box-shadow: 0 4px 5px 3px rgba(218, 123, 147, 0.459);
+  border:15px solid #DA7B93;
+  
 }
 
 /* footer styling */
@@ -57,6 +66,10 @@
   margin-left:50px;
   margin-right: 50px;
   font-size: 30px;
+}
+
+.footer a:hover{
+  color: #1C3334;
 }
 
 /* contact form styling */

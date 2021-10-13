@@ -15,8 +15,8 @@ function About() {
           <Col xs = {12} md = {12} className="profilePic">
             <Image src = {profile} rounded/>
           </Col>
-          <Col xs={12} md={12} className="aboutDescription" >
-            Hello, I'm Jessica. My education was in mechanical/electrical engineering, but I have had varied jobs that I have led me full circle back to coding. I am currently studying both Full-Stack Software Development and Data Science with a focus in Machine Learning. I'm looking for a challenge and a new opportunity. Feel free to reach out!
+          <Col xs={12} md={12} className="aboutDescription" style={{padding:'10px', textAlign:'center'}} >
+            Hello, I'm a Full Stack Developer based in Dallas TX. I just recently graduated from University of Texas at Austin Full Stack Web Development Bootcamp with a focus on the MERN stack. My prior career included Mechanical and Manufacturing Engineering, Sales and Eduction.<br/> I have always loved coding having experienced it in my Bachelors with Java and C++ and Python through a Data Science Bootcamp. I greatly enjoy a challenge and have found that in the ever changing field of web development.<br/> Open to opportunties. Feel free to reach out!
           </Col>
         </Row>
       </Container>
