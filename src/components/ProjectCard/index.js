@@ -8,10 +8,11 @@ function ProjectCard(props){
             <Card.Img className="project-card-img" variant="top" src={props.imgPath} style={{ minHeight:'100px'}} />
             <Card.Body>
                 <Card.Title>{props.title}</Card.Title>
-                <Card.Text >
+                <Card.Text style={{margin:'2px'}}>
                     {props.description}
                 </Card.Text>
-                <a href={props.link}><Button variant="primary">View Project</Button></a>
+                <a href={props.link}><Button variant="primary" style={{marginTop:'5px'}}>View Deployed Project</Button></a><br/>
+                <a href={props.githublink}><Button variant="primary" style={{marginTop:'5px'}}>GitHub Repository</Button></a>
             </Card.Body>
         </Card>
     )
