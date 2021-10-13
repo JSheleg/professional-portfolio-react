@@ -1,6 +1,6 @@
 
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import About from './components/pages/About';
 import Portfolio from './components/pages/Portfolio';
 import Resume from './components/pages/Resume';
@@ -12,18 +12,18 @@ import './App.css';
 
 function App() {
     return(
-        <Router>
+        <HashRouter basename = '/'>
             <div>
                 <Nav/>
                     <Switch>
                         <Route exact path = '/' component={About}/>
-                        <Route exact path = '/portfolio' component={Portfolio}/>
-                        <Route exact path = '/resume' component={Resume}/>
-                        <Route exact path = '/contact' component={Contact}/>
+                        <Route path = '/portfolio' component={Portfolio}/>
+                        <Route path = '/resume' component={Resume}/>
+                        <Route path = '/contact' component={Contact}/>
                     </Switch>
                 <Footer/>
             </div>
-        </Router>
+        </HashRouter>
     );
 }
 
