@@ -25,19 +25,9 @@ img{
   justify-content: center;  
 }
 
-.project-section {
-  position: relative !important;
-  padding-top: 150px !important;
-  padding-bottom: 30px !important;
-  padding: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction:row;
-}
 
-.project-card-img{
-  width: 200px;
-} */
+
+ */
 
 /* .project-card {
   padding-top: 50px !important;

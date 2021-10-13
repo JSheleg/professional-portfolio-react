@@ -64,72 +64,78 @@
   background-color: #1C3334;
 }
 
-
-
-/* .navbar{
-  float:right;
-  justify-content: space-evenly;
-  display:flex;
+/* styling for porfolio */
+.project-card-img{
+  width: 200px;
 }
 
-.navbar a{
-  color: white;
-}
-
-.navbar li{
-  justify-content: space-between;
-} */
-
-
-/* ul {
-  list-style: none; /*to remove bullets*/
-  /* text-align: center;
-  zoom:1;
-  border:1px solid black;
-  width: 100%;
-  background-color:black;
-} */ 
-
-/* li{
-  padding: 5px;
-  width: 350px;
-  display:inline-block;
-  height: 20px;
-}
-
-li:hover{
-  background-color: #355e3b;
-}
-
-a{
-  color: white;
-}
-
-
-.App-link {
-  color: #61dafb;
-} */
-/* 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.test a{
-  margin-left: 250px;
+.project-section {
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
   padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:row;
 }
 
-.about-me{
-  display: flex;
-  flex-direction: column;
-  
+.project-card {
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  height: auto !important;  
+}
 
-} */
+.project-card-view {
+  box-shadow: 0 4px 5px 3px rgba(218, 123, 147, 0.459) !important;
+  color: white !important;
+  /* background-color:#DA7B93; */
+  background-color: transparent; 
+
+  
+  transition: all 0.5s ease 0s !important;
+  height: 100% !important;
+}
+
+.project-card-view:hover {
+  transform: scale(1.02) !important;
+  overflow: hidden !important;
+  box-shadow: 0 4px 4px 5px rgba(218, 123, 147, 0.561) !important;
+}
+
+.card-img-top {
+  padding: 20px !important;
+  opacity: 0.8 !important;
+  border-radius: 10px !important;
+}
+
+.project-heading {
+  color: white !important;
+  font-size: 2.5em !important;
+  font-weight: 500 !important;
+  padding-top: 10px !important;
+}
+
+.btn-primary {
+  color: #fff !important; 
+  border-color: #376E6F !important;
+  background-color: #376E6F
+}
+
+.btn-primary:hover {
+  color: #fff !important;
+  background-color: #DA7B93 !important;
+  border-color: #DA7B93 !important;
+}
+
+.btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+
+
 
 
 

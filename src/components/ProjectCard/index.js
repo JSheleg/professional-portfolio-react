@@ -4,14 +4,14 @@ import { Card, Button} from "react-bootstrap";
 function ProjectCard(props){
     return(
         
-        <Card className="project-card-view" style={{ width: '18rem' }}>
-            <Card.Img className="project-card-img" variant="top" src={props.imgPath} />
+        <Card className="project-card-view" style={{ width: '18rem' , textAlign:"center", margin:'15px'}}>
+            <Card.Img className="project-card-img" variant="top" src={props.imgPath} style={{ minHeight:'100px'}} />
             <Card.Body>
                 <Card.Title>{props.title}</Card.Title>
-                <Card.Text style={{textAlign:"justify"}}>
+                <Card.Text >
                     {props.description}
                 </Card.Text>
-                <Button variant="primary">View Project</Button>
+                <a href={props.link}><Button variant="primary">View Project</Button></a>
             </Card.Body>
         </Card>
     )
