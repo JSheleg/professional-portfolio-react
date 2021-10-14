@@ -1,7 +1,7 @@
 import React from 'react'
 import {Container, Row, Col} from 'react-bootstrap';
 import ProjectCard from '../../ProjectCard';
-import project1 from '../../../assets/projects/bridge.jpg';
+import project1 from '../../../assets/projects/boardReactions.JPG';
 import project2 from '../../../assets/projects/FindMyBoards.JPG';
 import project3 from '../../../assets/projects/budgetTracker.JPG';
 import project4 from '../../../assets/projects/HomePageNotes.JPG';
