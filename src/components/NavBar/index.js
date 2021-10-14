@@ -12,7 +12,7 @@ const NavBar = () => {
             </Container>
             <Container>
               <Nav className="navbar">
-                <Nav.Link href="/">About.</Nav.Link>
+                <Nav.Link href="/">About</Nav.Link>
                 <Nav.Link href="/portfolio">Portfolio</Nav.Link>
                 <Nav.Link href="/resume">Resume</Nav.Link>
                 <Nav.Link href="/contact">Contact</Nav.Link>
