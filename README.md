@@ -1,4 +1,4 @@
-# Book Search Engine ![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
+# Professional Portfolio ![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Description: 
 A personal portfolio created via REACT to host my personal projects.
