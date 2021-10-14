@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/professional-portfolio-react/static/css/main.cf0e72e2.chunk.css",
-    "main.js": "/professional-portfolio-react/static/js/main.71e23d94.chunk.js",
-    "main.js.map": "/professional-portfolio-react/static/js/main.71e23d94.chunk.js.map",
-    "runtime-main.js": "/professional-portfolio-react/static/js/runtime-main.01c7c4f8.js",
-    "runtime-main.js.map": "/professional-portfolio-react/static/js/runtime-main.01c7c4f8.js.map",
-    "static/js/2.9c88d2a5.chunk.js": "/professional-portfolio-react/static/js/2.9c88d2a5.chunk.js",
-    "static/js/2.9c88d2a5.chunk.js.map": "/professional-portfolio-react/static/js/2.9c88d2a5.chunk.js.map",
-    "static/js/3.817418b2.chunk.js": "/professional-portfolio-react/static/js/3.817418b2.chunk.js",
-    "static/js/3.817418b2.chunk.js.map": "/professional-portfolio-react/static/js/3.817418b2.chunk.js.map",
-    "index.html": "/professional-portfolio-react/index.html",
-    "static/css/main.cf0e72e2.chunk.css.map": "/professional-portfolio-react/static/css/main.cf0e72e2.chunk.css.map",
-    "static/js/2.9c88d2a5.chunk.js.LICENSE.txt": "/professional-portfolio-react/static/js/2.9c88d2a5.chunk.js.LICENSE.txt",
-    "static/media/FindMyBoards.7767a470.JPG": "/professional-portfolio-react/static/media/FindMyBoards.7767a470.JPG",
-    "static/media/Gourge.e66af90a.JPG": "/professional-portfolio-react/static/media/Gourge.e66af90a.JPG",
-    "static/media/HomePageNotes.8b692a38.JPG": "/professional-portfolio-react/static/media/HomePageNotes.8b692a38.JPG",
-    "static/media/Landingpg.c0553e1e.JPG": "/professional-portfolio-react/static/media/Landingpg.c0553e1e.JPG",
-    "static/media/bridge.8087b613.jpg": "/professional-portfolio-react/static/media/bridge.8087b613.jpg",
-    "static/media/budgetTracker.887af22e.JPG": "/professional-portfolio-react/static/media/budgetTracker.887af22e.JPG",
-    "static/media/profile_pic.ed336bed.jpg": "/professional-portfolio-react/static/media/profile_pic.ed336bed.jpg",
-    "static/media/teamGenerated.735797d6.JPG": "/professional-portfolio-react/static/media/teamGenerated.735797d6.JPG"
+    "main.css": "/static/css/main.cf0e72e2.chunk.css",
+    "main.js": "/static/js/main.d2fec829.chunk.js",
+    "main.js.map": "/static/js/main.d2fec829.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9598f466.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9598f466.js.map",
+    "static/js/2.9c88d2a5.chunk.js": "/static/js/2.9c88d2a5.chunk.js",
+    "static/js/2.9c88d2a5.chunk.js.map": "/static/js/2.9c88d2a5.chunk.js.map",
+    "static/js/3.817418b2.chunk.js": "/static/js/3.817418b2.chunk.js",
+    "static/js/3.817418b2.chunk.js.map": "/static/js/3.817418b2.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.cf0e72e2.chunk.css.map": "/static/css/main.cf0e72e2.chunk.css.map",
+    "static/js/2.9c88d2a5.chunk.js.LICENSE.txt": "/static/js/2.9c88d2a5.chunk.js.LICENSE.txt",
+    "static/media/FindMyBoards.7767a470.JPG": "/static/media/FindMyBoards.7767a470.JPG",
+    "static/media/Gourge.e66af90a.JPG": "/static/media/Gourge.e66af90a.JPG",
+    "static/media/HomePageNotes.8b692a38.JPG": "/static/media/HomePageNotes.8b692a38.JPG",
+    "static/media/Landingpg.c0553e1e.JPG": "/static/media/Landingpg.c0553e1e.JPG",
+    "static/media/bridge.8087b613.jpg": "/static/media/bridge.8087b613.jpg",
+    "static/media/budgetTracker.887af22e.JPG": "/static/media/budgetTracker.887af22e.JPG",
+    "static/media/profile_pic.ed336bed.jpg": "/static/media/profile_pic.ed336bed.jpg",
+    "static/media/teamGenerated.735797d6.JPG": "/static/media/teamGenerated.735797d6.JPG"
   },
   "entrypoints": [
-    "static/js/runtime-main.01c7c4f8.js",
+    "static/js/runtime-main.9598f466.js",
     "static/js/2.9c88d2a5.chunk.js",
     "static/css/main.cf0e72e2.chunk.css",
-    "static/js/main.71e23d94.chunk.js"
+    "static/js/main.d2fec829.chunk.js"
   ]
 }
