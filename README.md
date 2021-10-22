@@ -1,6 +1,7 @@
 # Professional Portfolio ![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
 
-![porfolioLandingPage]()
+![porfolioLandingPage](https://github.com/JSheleg/professional-portfolio-react/blob/feature/revertedCode/src/assets/PortfolioLanding.JPG)
+
 ## Description: 
 A personal portfolio created via REACT to host my personal projects.
 
