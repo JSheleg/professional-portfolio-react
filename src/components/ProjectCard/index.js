@@ -11,8 +11,8 @@ function ProjectCard(props){
                 <Card.Text style={{margin:'2px'}}>
                     {props.description}
                 </Card.Text>
-                <a href={props.link}><Button variant="primary" style={{marginTop:'5px'}}>View Deployed Project</Button></a><br/>
-                <a href={props.githublink}><Button variant="primary" style={{marginTop:'5px'}}>GitHub Repository</Button></a>
+                <a href={props.link} target="_blank" rel="noreferrer"><Button variant="primary" style={{marginTop:'5px'}}>View Deployed Project</Button></a><br/>
+                <a href={props.githublink} target="_blank" rel="noreferrer"><Button variant="primary" style={{marginTop:'5px'}}>GitHub Repository</Button></a>
             </Card.Body>
         </Card>
     )

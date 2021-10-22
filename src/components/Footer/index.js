@@ -8,9 +8,9 @@ const Footer = () => {
     <Navbar bg="dark" variant="dark" className="Footer">
       <Container>
         <Nav className="footer">
-          <Nav.Link href="https://github.com/JSheleg">GitHub</Nav.Link>
-          <Nav.Link href="https://www.linkedin.com/in/jessicasheleg/">LinkedIn</Nav.Link>
-          <Nav.Link href="#">TBD</Nav.Link>
+          <Nav.Link href="https://github.com/JSheleg" target="_blank" rel="noreferrer">GitHub</Nav.Link>
+          <Nav.Link href="https://www.linkedin.com/in/jessicasheleg/" target="_blank" rel="noreferrer">LinkedIn</Nav.Link>
+          <Nav.Link href="#" target="_blank" rel="noreferrer">TBD</Nav.Link>
         </Nav>
       </Container>
     </Navbar>      
