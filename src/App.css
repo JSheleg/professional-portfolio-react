@@ -59,6 +59,10 @@
   background-color: #376E6F;
   padding-top: 50px;
   padding-bottom: 50px;
+  /* position: absolute; */
+  left:0;
+  right:0;
+  bottom: 0;
 }
 
 .navbar a{
@@ -148,7 +152,31 @@
 }
 
 
+/*MEDIA QUERY FOR SMALLER DESKTOP SCREENS*/
+@media screen and (max-width:980px) {
+  .picture{
+    flex-direction: column;
+  }
+  .navbar{
+    flex-direction: column;
+    text-align: center;
+  }
+  .resumeRow{
+    flex-direction: column;
+    padding-left:20px;
+    
+  }
+  .contactForm{
+    width: 600px;
+  }
+  
+  
 
+
+
+
+  
+}
 
 
 

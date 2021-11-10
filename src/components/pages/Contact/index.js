@@ -29,8 +29,8 @@ const Contact = () => {
                     <p style={{fontStyle:"italic", fontSize:"20px", color: "white", marginLeft:"50px", marginRight: "50px"}}>I am currently studying and continuing to learn all I can to imporove my performancen as a developer. I am up for a challenge and I am always looking for opportunties. Feel free to reach out. Thank you! ~ Jessica Sheleg</p>
                 </Col>
             </Row>
-            <Form onSubmit={sendEmail} style={{marginLeft: "300px", marginTop:"75px", marginRight: "350px", marginBottom:"100px", paddingTop: "30px", paddingBottom:"30px", border: "10px solid black", backgroundColor: "#376E6F"}} >
-                <Form.Group className="mb-3" controlId="contactInput" style={{marginTop:"10px", marginLeft:"100px"}}>
+            <Form className="contactForm" onSubmit={sendEmail} style={{marginLeft: "300px", marginTop:"75px", marginRight: "350px", marginBottom:"100px", paddingTop: "30px", paddingBottom:"30px", border: "10px solid black", backgroundColor: "#376E6F"}} >
+                <Form.Group className="formInput mb-3" controlId="contactInput" style={{marginTop:"10px", marginLeft:"100px"}}>
                     <Form.Label style={{marginRight:"50px"}}>Name: </Form.Label><br/>
                     <Form.Control id="name" type="text" placeholder="Name" name="user_name"/><br/>
                     <Form.Label>Email address: </Form.Label><br/>
@@ -43,7 +43,7 @@ const Contact = () => {
                 </Button>
             </Form>
             <Row>
-                <p style = {{marginLeft: '350px'}}>If form isn't working, feel free to reach me at jessica.sheleg@gmail.com</p>
+                <p style = {{marginLeft: '350px'}}>Feel free to reach me at jessica.sheleg@gmail.com</p>
             </Row>
             
         </Container>

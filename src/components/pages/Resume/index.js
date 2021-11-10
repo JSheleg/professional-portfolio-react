@@ -6,8 +6,8 @@ import Badge from 'react-simple-badges';
 
 const Resume = () => (
     
-    <Container style={{backgroundColor:"#2E151B"}}>
-        <Row>
+    <Container className="resume" style={{backgroundColor:"#2E151B", padding:"100px"}}>
+        <Row className="resumeRow">
             {/* <Col><img src={cover} className="my-2" style={{margin: "25px", height: "500px", width: "600px", border: "10px solid #DA7B93"}} alt="cover"/></Col> */}
             <iframe title="resume" src="https://docs.google.com/document/d/e/2PACX-1vQvma5WD-XfT5R1UQjQuLm5ittWKwsVXt7IAftP53D8gJHIym3DqjPmYrKAO-rAWMd63bmtNjp3MROx/pub?embedded=true" style={{margin: "25px", height: "500px", width: "600px", border: "10px solid #DA7B93"}}></iframe>
             <Col style={{margin: "50px"}}><a href="https://docs.google.com/document/d/e/2PACX-1vQvma5WD-XfT5R1UQjQuLm5ittWKwsVXt7IAftP53D8gJHIym3DqjPmYrKAO-rAWMd63bmtNjp3MROx/pub"target="_blank" rel="noreferrer"><Button variant="primary" size="lg" active style = {{width: "150px", height: "50px",marginTop:"50px", border: "10px solid #DA7B93", backgroundColor: "#376E6F", color: "white"}}>Download Resume</Button></a></Col>
