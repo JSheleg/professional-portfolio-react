@@ -5,7 +5,7 @@ function ProjectCard(props){
     return(
         
         <Card className="project-card-view" style={{ width: '18rem' , textAlign:"center", margin:'15px'}}>
-            <Card.Img className="project-card-img" variant="top" src={props.imgPath} style={{ minHeight:'100px'}} />
+            <Card.Img className="project-card-img" variant="top" src={props.imgPath} style={{ minHeight:'150px'}} />
             <Card.Body>
                 <Card.Title>{props.title}</Card.Title>
                 <Card.Text style={{margin:'2px'}}>

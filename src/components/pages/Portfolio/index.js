@@ -35,7 +35,7 @@ function Projects(){
                     <ProjectCard
                         imgPath={project2}
                         title="Find My Boards"
-                        description="Social Media Application that connects board game lovers with a like minded community where they can share games, discover new games and make friends with users of similar tastes. Original version of Board Game Social Media App"
+                        description="Social Media Application that connects board game lovers with a like minded community where they can share games, discover new games and make friends with users of similar tastes. Original version of Board Game Social Media App. Technologies used were Node and Express to create RESTful API, handlebars, and MySQL/Sequelize"
                         link="https://findmyboards.herokuapp.com/"
                         githublink="https://github.com/JSheleg/find-my-boards"
                     />
